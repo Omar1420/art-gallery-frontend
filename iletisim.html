@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Ra Art Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="contact-v2">
+
+    <nav class="main-nav">
+        <div class="nav-container container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Ra Art Gallery Logo">
+            </a>
+            <div class="nav-links-wrapper" id="navLinks">
+                <div class="close-menu" id="closeMenu">&times;</div>
+                <ul class="nav-list">
+                    <li><a href="index.html">ANA SAYFA</a></li>
+                    <li><a href="hakkinda.html">HAKKIMIZDA</a></li>
+                    <li><a href="sergiler.html">SERGİLER</a></li>
+                    <li><a href="blog.html">DUYURULAR</a></li>
+                    <li><a href="iletisim.html" class="active">İLETİŞİM</a></li>
+                </ul>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contact-master">
+        <section class="contact-hero">
+            <div class="hero-text">
+                <span class="eyebrow" style="color: #5f0515; font-weight: 700; letter-spacing: 3px; font-size: 0.75rem;">DİALOG</span>
+                <h1 class="page-title">Bizimle <br><span class="italic accent-clr">İletişime Geçin</span></h1>
+            </div>
+            <div class="hero-decorative-line"></div>
+        </section>
+
+        <div class="contact-layout">
+            <aside class="contact-details">
+                <div class="detail-item">
+                    <label>LOKASYON</label>
+                    <p>Alsancak, Kültür Mahallesi, 1375. Sk. No:25, Konak/İzmir</p>
+                </div>
+                <div class="detail-item">
+                    <label>DİJİTAL</label>
+                    <p>hello@rahaartgallery.com</p>
+                    <p>+90 232 444 00 00</p>
+                </div>
+                <div class="detail-item">
+                    <label>SOSYAL MEDYA</label>
+                    <div class="social-grid">
+                        <a href="#">Instagram</a>
+                        <a href="#">Behance</a>
+                        <a href="#">LinkedIn</a>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="contact-form-area">
+                <p class="form-intro">Kiralama talepleri, sanatçı portfolyoları veya genel sorularınız için aşağıdaki formu kullanabilirsiniz.</p>
+                
+                <form class="art-form">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name">İsim & Soyisim</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">E-Posta</label>
+                    </div>
+
+                    <div class="input-group">
+                        <select id="subject" required>
+                            <option value="" disabled selected></option>
+                            <option value="kiralama">Mekan Kiralama</option>
+                            <option value="eser">Eser Alımı</option>
+                            <option value="isbirligi">İş Birliği</option>
+                        </select>
+                        <label for="subject">İlgi Alanı</label>
+                    </div>
+
+                    <div class="input-group">
+                        <textarea id="msg" rows="1" required></textarea>
+                        <label for="msg">Mesajınız</label>
+                    </div>
+
+                    <button type="submit" class="art-submit">
+                        <span>MESAJI GÖNDER</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
